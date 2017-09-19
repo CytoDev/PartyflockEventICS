@@ -288,7 +288,7 @@ PartyflockEventICS.prototype.parseLineup = function(lineupElement) {
                         let flagIndex = parseInt(data.getAttribute("src").split(".")[0].split("/").pop());
 
                         if(this.countryFlags[flagIndex] !== undefined)
-                            performer.country = this.countryFlags[flagIndex];
+                            performer.country += this.countryFlags[flagIndex];
                     }
 
                     if(data.classList.contains("small"))
