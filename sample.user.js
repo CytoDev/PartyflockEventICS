@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Partyflock event ICS
+// @namespace    https://cytodev.io/
+// @version      1.0.2
+// @description  Convert a partyflock timetable to an ICS file
+// @author       cytodev <mail@cytodev.io>
+// @match        https://partyflock.nl/*
+// @require      https://raw.githubusercontent.com/CytoDev/PartyflockEventICS/v1.0.2/src/PartyflockEventICS.js
+// @grant        none
+// ==/UserScript==
+
 (function() {
     "use strict";
 
