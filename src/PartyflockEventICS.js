@@ -197,7 +197,7 @@ function PartyflockEventICS() {
  * @return {String}                    [Parsed result]
  */
 PartyflockEventICS.prototype.parseHeader = function(headerElement) {
-    let title    = headerElement.getElementsByTagName("h2")[0].textContent;
+    let title    = headerElement.getElementsByTagName("h1")[0].textContent;
     let subtitle = headerElement.getElementsByClassName("subtitle");
 
     if(subtitle.length > 0) {
